@@ -9,5 +9,4 @@ def call(size) {
     else {
         env.SUCCESS = false
     }
-    sh "echo was this a success? ${SUCCESS}"
 }
